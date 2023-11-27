@@ -64,9 +64,6 @@
                         <td colspan="2">' + (feature.properties['Foto'] !== null ? autolinker.link(feature.properties['Foto'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Gambar'] !== null ? '<img src="images/' + String(feature.properties['Gambar']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2">' + (feature.properties['DescQS WUR'] !== null ? autolinker.link(feature.properties['DescQS WUR'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
